@@ -19,15 +19,12 @@ body {
 }
 
 .logo {
-    width: 150px;
+    width: 75%;
     margin-bottom: 20px;
 }
 
 .board_BG {
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
-    gap: 5px;
+    gap: 10px;
     margin: 20px auto;
     position: relative;
     background: url('assets/cell_BG.png') no-repeat center center;
@@ -92,7 +89,7 @@ button {
     background-color: #0058C9;
     border: 0px solid #fff;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 30px;
     transition: background-color 0.3s;
 }
 
@@ -115,10 +112,10 @@ button:hover {
 }
 
 .popup-content {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(64px); /* Enhanced blur for the popup window */
     padding: 20px;
-    border-radius: 75px;
+    border-radius: 60px;
     text-align: center;
     color: #ffffff;
     border: 10px solid #fff;
