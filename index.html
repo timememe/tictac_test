@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <img src="assets/logo.png" alt="Logo" class="logo">
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <h2>ИНСТРУКЦИЯ!</h2>
+                <p>Соберите печеньки с кремом в одну линию! Собравший первым побеждает!</p>
+                <button id="start">Играть</button>
+            </div>
+        </div>
+        <div id="win-popup" class="popup">
+            <div class="popup-content">
+                <h2 id="win-message"></h2>
+                <p id="round-counter"></p>
+                <button id="close-win-popup">Закрыть</button>
+            </div>
+        </div>
+        <div id="final-popup" class="popup">
+            <div class="popup-content">
+                <h2 id="final-message"></h2>
+                <button id="restart-game">Играть заново</button>
+            </div>
+        </div>
+        <div id="board" class="board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <button id="restart">Сыграть снова</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
