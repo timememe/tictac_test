@@ -32,7 +32,8 @@ body {
 }
 
 .logo {
-    width: 150px;
+    width: 100%;
+    height: auto;
     margin-bottom: 20px;
 }
 
@@ -46,8 +47,8 @@ body {
 
 .board {
     display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(3, 10vh);
+    grid-template-rows: repeat(3, 10vh);
     gap: 5px;
     margin: 20px auto;
     position: relative;
@@ -57,8 +58,8 @@ body {
 }
 
 .cell {
-    width: 100px;
-    height: 100px;
+    width: 10vh;
+    height: 10vh;
     background-size: cover;
     display: flex;
     justify-content: center;
